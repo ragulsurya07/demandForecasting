@@ -13,8 +13,8 @@ api = Flask(__name__)
 
 api.config['MYSQL_HOST'] = 'localhost'
 api.config['MYSQL_USER'] = 'root'
-api.config['MYSQL_PASSWORD'] = '#Hackhack07'
-api.config['MYSQL_DB'] = 'Demand_Forecasting'
+api.config['MYSQL_PASSWORD'] = 'database password'
+api.config['MYSQL_DB'] = 'database name'
 
 mysql = MySQL(api)
 
